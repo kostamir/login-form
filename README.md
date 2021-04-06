@@ -1,6 +1,6 @@
 # React/Redux login SPA
 
-Simple React/Redux loging SPM
+Simple React/Redux login single page application
 
 ## Setup
 
