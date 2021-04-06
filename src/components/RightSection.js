@@ -81,7 +81,11 @@ export default function RightSection() {
             </Box>
           </Grid>
           <Grid item className={classes.button} xs={12}>
-            <Button className={classes.buttonStyle} onClick={handleLogin}>
+            <Button
+              className={classes.buttonStyle}
+              type="submit"
+              onClick={handleLogin}
+            >
               Next
             </Button>
           </Grid>
@@ -122,7 +126,6 @@ const useStyles = makeStyles((theme) => ({
   },
   form: {
     alignSelf: "center",
-    // marginBottom: "5vh",
   },
   success: {
     alignSelf: "center",
